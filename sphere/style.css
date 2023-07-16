@@ -1,0 +1,46 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body,html{
+  padding-top: 5ch;
+  margin: 0;
+  padding: 0;
+}
+.webgl{
+  position:absolute;
+  top:0;
+  left: 0;
+  z-index: 1;
+}
+nav{
+  color:white;
+  z-index: 2;
+  position: relative;
+  padding: 2rem 9rem;
+  display: flex;
+  justify-content: space-between;
+}
+nav a {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  font-family: 'Manrope', sans-serif;
+}
+nav ul{
+  list-style: none;
+  display: flex;
+  gap:4rem;
+  font-family: 'Manrope', sans-serif;
+}
+.title{
+  color: white;
+  z-index: 2;
+  position: absolute;
+  font-family: 'Manrope', sans-serif;
+  font-size: 2rem;
+  left:75%;
+top:45%;
+transform: translate(-50%,-25%);}
